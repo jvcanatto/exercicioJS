@@ -11,6 +11,10 @@ if (ordem1 < ordem2 && ordem2 < ordem3) {
     console.log ("Ordem crescente!")
 }
 
+else if (ordem1 > ordem2 && ordem2 > ordem3) {
+    console.log ("Ordem decrescente!")
+}
+
 else {
-    console.log ("Não é uma ordem crescente!")
+    console.log ("Não tem uma ordem!")
 }
