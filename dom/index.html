@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="ex1.js"></script>
+
+    /* 1 - Alterar o texto de um paragrafo ao clicar em um botão */
+
+       <!-- 1 - Alterar o texto de um paragrafo ao clicar em um botão -->
+    
+       <p id="meuParagrafo">Texto Original</p>
+       <button onclick="alterarTexto()">Alterar Texto</button>
+   
+    <script>
+        function alterarTexto(){
+            //Selecionar o parágrafo pelo ID 
+            let paragrafo = document.getElementById("meuParagrafo");
+            //Alterar o texto
+            paragrafo.innerText = "Texto Alterado";
+           }
+    </script>
+</body>
+</html>
